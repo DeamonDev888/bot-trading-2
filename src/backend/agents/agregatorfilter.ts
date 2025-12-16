@@ -6,6 +6,7 @@ import fs from 'fs/promises';
 import pathModule from 'path';
 import { exec } from 'child_process';
 import { promisify } from 'util';
+import { pipelineMonitor } from '../scripts/pipeline_monitor.js';
 import { execSync } from 'child_process';
 
 dotenv.config();
@@ -25,7 +26,7 @@ interface FilterResult {
 }
 
 export class AgregatorFilterAgent extends BaseAgentSimple {
-  private pool: Pool;
+  public pool: Pool; // Make public for diagnostic
 
   constructor() {
     super('AgregatorFilterAgent');
@@ -42,12 +43,21 @@ export class AgregatorFilterAgent extends BaseAgentSimple {
     console.log(`[${this.agentName}] Starting filter cycle for Aggregator News...`);
 
     try {
+      // Start pipeline monitoring
+      await pipelineMonitor.startPipeline();
+      pipelineMonitor.startStep('AgregatorFilterAgent.cycle', { agent: this.agentName });
       // Step 0: Auto-process technical sources (BLS, TradingEconomics) to skip LLM
+      pipelineMonitor.startStep('AgregatorFilterAgent.autoProcessTechnical');
       await this.autoProcessTechnicalSources();
+      pipelineMonitor.completeStep('AgregatorFilterAgent.autoProcessTechnical');
 
       // Step 1: Fetch pending items (ZeroHedge, CNBC, etc.)
       // Exclude X sources which are handled by NewsFilterAgent
+      pipelineMonitor.startStep('AgregatorFilterAgent.fetchPendingItems');
       const pendingItems = await this.fetchPendingItems();
+      pipelineMonitor.completeStep('AgregatorFilterAgent.fetchPendingItems', {
+        itemCount: pendingItems.length
+      });
 
       if (pendingItems.length === 0) {
         console.log(`[${this.agentName}] No pending items found. This agent only processes existing items in database.`);
@@ -77,8 +87,15 @@ export class AgregatorFilterAgent extends BaseAgentSimple {
       console.log(
         `[${this.agentName}] ✅ Filter cycle completed: ${pendingItems.length} items processed`
       );
+
+      pipelineMonitor.completeStep('AgregatorFilterAgent.cycle');
+      await pipelineMonitor.endPipeline(true);
+
     } catch (error) {
       console.error(`[${this.agentName}] ❌ Error in filter cycle:`, error);
+
+      pipelineMonitor.errorStep('AgregatorFilterAgent.cycle', error instanceof Error ? error : new Error(String(error)));
+      await pipelineMonitor.endPipeline(false);
     }
   }
 
@@ -132,9 +149,14 @@ export class AgregatorFilterAgent extends BaseAgentSimple {
     }
   }
 
-  private async processBatch(batch: NewsItemToFilter[]): Promise<void> {
+  public async processBatch(batch: NewsItemToFilter[]): Promise<void> { // Make public for diagnostic
     console.log(`[${this.agentName}] 📤 Sending ${batch.length} items to LLM:`);
     batch.forEach(b => console.log(`  - ${b.source}: ${b.title.substring(0, 100)}...`));
+
+    pipelineMonitor.startStep('AgregatorFilterAgent.processBatch', {
+      batchSize: batch.length,
+      items: batch.map(b => ({ id: b.id, source: b.source, titleLength: b.title.length }))
+    });
 
     const prompt = this.buildPrompt(batch);
     const req = {
@@ -143,8 +165,19 @@ export class AgregatorFilterAgent extends BaseAgentSimple {
     };
 
     try {
+      pipelineMonitor.startStep('AgregatorFilterAgent.executeAndParse', {
+        promptLength: prompt.length,
+        outputFile: req.outputFile
+      });
+
       const results = await this.executeAndParse(req, batch);
+      pipelineMonitor.completeStep('AgregatorFilterAgent.executeAndParse', {
+        resultsCount: results.length
+      });
+
+      pipelineMonitor.startStep('AgregatorFilterAgent.updateDatabase');
       await this.updateDatabase(results, batch);
+      pipelineMonitor.completeStep('AgregatorFilterAgent.updateDatabase');
 
       // ⭐ NOUVEAU : Appeler le publisher pour les items pertinents
       const relevantItems = results.filter(r => r.relevance_score >= 7);
@@ -244,89 +277,22 @@ Replace with actual scores. Be quick and direct.`;
     await fs.writeFile(tempPromptPath, req.prompt, 'utf-8');
     console.log(`\n📝 AGGREGATOR PROMPT (${req.prompt.length} chars)...`);
 
-    // Essayer plusieurs approches pour exécuter KiloCode
-    const approaches = [
-      {
-        name: 'Direct stdin approach',
-        exec: async () => {
-          // Approche 1: Passer le contenu directement via stdin
-          const env = {
-            ...process.env,
-            PATH: process.platform === 'win32'
-              ? `${process.env.PATH};C:\\Program Files\\Git\\cmd`
-              : `${process.env.PATH}:/mnt/c/Program Files/Git/cmd`
-          };
-          const { exec: execAsync } = require('child_process');
-          const { promisify } = require('util');
-          const execAsyncPromise = promisify(execAsync);
+    // Set up environment with Git in PATH (like NewsFilterAgentOptimized)
+    const env = {
+      ...process.env,
+      PATH: process.platform === 'win32'
+        ? `${process.env.PATH};C:\\Program Files\\Git\\cmd`
+        : `${process.env.PATH}:/mnt/c/Program Files/Git/cmd`
+    };
 
-          const command = `kilocode -m ask --auto --json > "${cachePath}"`;
-          const childProcess = require('child_process').spawn(command, [], {
-            shell: true,
-            env: env,
-            stdio: ['pipe', 'pipe', 'pipe']
-          });
-
-          childProcess.stdin.write(req.prompt);
-          childProcess.stdin.end();
-
-          return new Promise((resolve, reject) => {
-            let output = '';
-            childProcess.stdout.on('data', (data: Buffer) => {
-              output += data.toString();
-            });
-
-            childProcess.on('close', (code: number) => {
-              if (code === 0) {
-                resolve(output);
-              } else {
-                reject(new Error(`Process exited with code ${code}`));
-              }
-            });
-
-            childProcess.on('error', reject);
-          });
-        }
-      },
-      {
-        name: 'File-based approach',
-        exec: async () => {
-          // Approche 2: Utiliser un fichier temporaire (fallback)
-          const env = {
-            ...process.env,
-            PATH: process.platform === 'win32'
-              ? `${process.env.PATH};C:\\Program Files\\Git\\cmd`
-              : `${process.env.PATH}:/mnt/c/Program Files/Git/cmd`
-          };
-          const command = process.platform === 'win32'
-            ? `set PATH=%PATH%;C:\\Program Files\\Git\\cmd & kilocode -m ask --auto --json "${tempPromptPath}" > "${cachePath}"`
-            : `export PATH="$PATH:/mnt/c/Program Files/Git/cmd" && kilocode -m ask --auto --json "${tempPromptPath}" > "${cachePath}"`;
-          await execAsync(command, { timeout: 60000, env });
-          return await fs.readFile(cachePath, 'utf-8');
-        }
-      }
-    ];
-
-    let rawOutput = '';
-    let lastError: Error | null = null;
-
+    // Alternative approach: Use file input directly to KiloCode ask mode
     try {
-      // Essayer chaque approche jusqu'à ce qu'une fonctionne
-      for (const approach of approaches) {
-        console.log(`🔧 Trying ${approach.name}...`);
-        try {
-          rawOutput = await approach.exec() as string;
-          console.log(`✅ ${approach.name} succeeded!`);
-          break;
-        } catch (error) {
-          console.log(`❌ ${approach.name} failed:`, (error as Error).message);
-          lastError = error as Error;
-        }
-      }
+      // Use ask mode with JSON output (chat mode doesn't exist)
+      const command = `kilocode -m ask --auto --json "${tempPromptPath}" > "${cachePath}"`;
 
-      if (!rawOutput) {
-        throw lastError || new Error('All approaches failed');
-      }
+      await execAsync(command, { timeout: 120000, env }); // Increased timeout
+
+      const rawOutput = await fs.readFile(cachePath, 'utf-8');
 
       // Simple and robust parsing like NewsFilterAgentOptimized
       const results = this.parseKiloCodeOutputSimple(rawOutput);
@@ -345,40 +311,6 @@ Replace with actual scores. Be quick and direct.`;
     } catch (error) {
       console.error(`❌ Execution failed:`, error);
 
-      // Check if it's a Git error and try fallback
-      if ((error as Error).message.includes('git')) {
-        console.log(`⚠️ Git error detected, trying fallback command without Git features...`);
-        try {
-          // Utiliser le mode ask avec workspace explicite et Git dans le PATH
-          const fallbackCommand = process.platform === 'win32'
-            ? `set PATH=%PATH%;C:\\Program Files\\Git\\cmd & type "${tempPromptPath}" | kilocode -m ask --auto --json --nosplash --workspace "${process.cwd()}" > "${cachePath}"`
-            : `export PATH="$PATH:/c/Program Files/Git/cmd" && cat "${tempPromptPath}" | kilocode -m ask --auto --json --nosplash --workspace "${process.cwd()}" > "${cachePath}"`;
-          const fallbackEnv = {
-            ...process.env,
-            PATH: process.platform === 'win32'
-              ? `${process.env.PATH};C:\\Program Files\\Git\\cmd`
-              : `${process.env.PATH}:/c/Program Files/Git/cmd`
-          };
-          await execAsync(fallbackCommand, { timeout: 60000, env: fallbackEnv });
-
-          const rawOutput = await fs.readFile(cachePath, 'utf-8');
-          const results = this.parseKiloCodeOutputSimple(rawOutput);
-
-          const validResults = results.filter(result =>
-            result.id &&
-            typeof result.relevance_score === 'number' &&
-            result.processing_status &&
-            result.summary
-          );
-
-          console.log(`✅ Fallback succeeded: ${validResults.length}/${results.length} valid results`);
-          return validResults;
-
-        } catch (fallbackError) {
-          console.error(`❌ Fallback also failed:`, fallbackError);
-        }
-      }
-
       // Check if it's a KiloCode shell error
       if ((error as Error).message.includes('Shell command failed') ||
           (error as Error).message.includes('ENOENT')) {
@@ -388,7 +320,6 @@ Replace with actual scores. Be quick and direct.`;
         console.error(`   - KiloCode CLI is installed and in PATH`);
         console.error(`   - KiloCode API key is configured`);
         console.error(`   - KiloCode service is running`);
-        console.error(`   - Git is installed and in PATH (or use --no-git flag)`);
         console.error(`[${this.agentName}] 🛑 STOPPING PIPELINE - No fallback allowed per user request.`);
         process.exit(1);
       }

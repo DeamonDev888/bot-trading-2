@@ -11,7 +11,7 @@ import { promisify } from 'util';
 import { pathToFileURL } from 'url';
 import { PersistentSessionManager } from './PersistentSessionManager.js';
 import { ClaudeCommandHandler } from './ClaudeCommandHandler.js';
-import { ChatResponse, PollData, ChatRequest, ClaudeChatBotAgent } from '../backend/agents/ClaudeChatBotAgent.js';
+import { ChatResponse, PollData, ChatRequest, ClaudeChatBotAgentEnhanced } from '../backend/agents/ClaudeChatBotAgentEnhanced.js';
 import { DiscordPollManager } from './DiscordPollManager.js';
 import { DiscordInteractionHandler, PredfinedHandlers } from './DiscordInteractionHandler.js';
 // import { TradingEconomicsScraper } from '../backend/ingestion/TradingEconomicsScraper.js';
@@ -275,7 +275,7 @@ export class SniperFinancialBot {
     private claudeProcessManager: ClaudeProcessManager;
     public pollManager: DiscordPollManager;
     public interactionHandler: DiscordInteractionHandler;
-    private discordAgent: ClaudeChatBotAgent;
+    private discordAgent: any; // Using enhanced agent with robustness patterns
     public isInitialized = false;
     public client: Client | null = null;
     
@@ -302,7 +302,12 @@ export class SniperFinancialBot {
         this.claudeProcessManager = new ClaudeProcessManager();
         this.pollManager = new DiscordPollManager(null as any); // Will be set later when client is available
         this.interactionHandler = new DiscordInteractionHandler();
-        this.discordAgent = new ClaudeChatBotAgent();
+        // 🔥 UTILISER LE NOUVEL AGENT ROBUSTE avec tous les patterns de résilience
+        this.discordAgent = new ClaudeChatBotAgentEnhanced({
+          timeoutMs: 30000,
+          maxRetries: 3,
+          rateLimitMs: 100
+        });
 
         // Initialiser le sessionManager avec le discordAgent pour le mode persistant
         this.sessionManager = new PersistentSessionManager(this.discordAgent);

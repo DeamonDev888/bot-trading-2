@@ -748,9 +748,9 @@ export class ClaudeChatBotAgent extends BaseAgentSimple {
 
             const claudeCmd = process.platform === 'win32' ? 'claude.cmd' : 'claude';
 
-            // 🔥 CORRECTION: Passer le message directement en argument avec échappement
+            // 🔥 CORRECTION: Utiliser echo pour éviter les problèmes de guillemets
             const escapedMessage = message.replace(/"/g, '\\"');
-            let command = `${claudeCmd} --dangerously-skip-permissions "${escapedMessage}"`;
+            let command = `echo "${escapedMessage}" | ${claudeCmd} --dangerously-skip-permissions`;
 
             if (settingsFile && fsSync.existsSync(settingsFile)) {
                 command += ` --settings "${settingsPath}"`;
@@ -959,12 +959,13 @@ export class ClaudeChatBotAgent extends BaseAgentSimple {
             console.log(`[claude-chatbot] 🧹 Appel cleanAndParseClaudeStream...`);
             let cleanResponse = this.cleanAndParseClaudeStream(rawOutput);
 
-            // 🔥 ANTI-ECHO: Si on détecte un écho, c'est que le processus s'est terminé trop tôt
-            // On ne peut pas relancer ici facilement, donc on retourne un message d'erreur
+            // 🔥 ANTI-ECHO: Si on détecte un écho, on rejette cette réponse
+            // et on lance une erreur pour indiquer qu'il faut relancer
             if (cleanResponse === '[ECHO_DETECTED_WAIT_FOR_REAL_RESPONSE]') {
-                console.log(`[claude-chatbot] 🚫 Echo détecté - le processus s'est terminé trop tôt`);
-                console.log(`[claude-chatbot] 💡 Solution: Modifier la commande pour éviter l'écho`);
-                throw new Error('ECHO_DETECTED - Claude process terminated too early. Need to fix command to avoid echo.');
+                console.log(`[claude-chatbot] 🚫 Echo détecté - rejet de la réponse`);
+                console.log(`[claude-chatbot] 💡 La commande echo "message" | claude.cmd produit un écho avant la vraie réponse`);
+                console.log(`[claude-chatbot] 🔄 Solution: Le système va relancer la requête automatiquement`);
+                throw new Error('ECHO_DETECTED - Echo received, need to wait for real Claude response. Will retry.');
             }
 
             console.log(`[claude-chatbot] 🧹 Clean Response: "${cleanResponse.substring(0, 50)}..."`);

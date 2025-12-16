@@ -11,6 +11,7 @@ import { XNewsItem, XScrapingResult } from '../../x_scraper/interfaces.js';
 import { XNewsScraper } from '../../x_scraper/XNewsScraper.js';
 import { SimplePublisherOptimized } from '../../discord_bot/SimplePublisherOptimized.js';
 import { AgeFilterService } from './AgeFilterService.js';
+import { XPipelineLogger } from '../utils/XPipelineLogger.js';
 
 dotenv.config();
 
@@ -34,9 +35,10 @@ interface FilterResult {
 }
 
 export class NewsFilterAgentOptimized extends BaseAgentSimple {
-  private pool: Pool;
+  public pool: Pool; // Make public for testing
   private xScraperService: XScraperService;
   private logPath = pathModule.join(process.cwd(), 'logs', 'agent_errors.jsonl');
+  private pipelineLogger: XPipelineLogger;
 
   // Configuration optimisée
   private readonly BATCH_SIZE = 15; // Augmenté de 3 à 15
@@ -65,6 +67,9 @@ export class NewsFilterAgentOptimized extends BaseAgentSimple {
     if (this.isTestMode) {
         console.log('🧪 RUNNING IN TEST MODE: Limited scraping, strict logging.');
     }
+
+    // Initialize comprehensive logging
+    this.pipelineLogger = new XPipelineLogger(this.pool);
 
     this.xScraperService = new XScraperService();
     this.scraper = new XNewsScraper();
@@ -100,10 +105,27 @@ export class NewsFilterAgentOptimized extends BaseAgentSimple {
   public async runFilterCycle(opmlFile?: string): Promise<void> {
     console.log(`[${this.agentName}] Starting OPTIMIZED filter cycle with enhanced logic...`);
 
+    // Log pipeline start
+    this.pipelineLogger.logStageStart('PIPELINE_START', {
+      opml_file: opmlFile || 'default',
+      test_mode: this.isTestMode,
+      batch_size: this.BATCH_SIZE,
+      parallel_batches: this.PARALLEL_BATCHES
+    });
+
     try {
       // Step 1: Scrape fresh X/Twitter news first
       console.log(`[${this.agentName}] 🐦 Scraping fresh X/Twitter news...`);
+      this.pipelineLogger.logStageStart('X_SCRAPING', { opml_file: opmlFile });
+
+      const scrapeStartTime = Date.now();
       await this.scrapeAndSaveXNews(opmlFile);
+      const scrapeDuration = Date.now() - scrapeStartTime;
+
+      this.pipelineLogger.logStageComplete('X_SCRAPING', {
+        duration: scrapeDuration,
+        opml_file: opmlFile
+      });
 
       // Step 2: Pre-filter items before processing
       console.log(`[${this.agentName}] 🎯 Pre-filtering items before AI processing...`);
@@ -131,12 +153,21 @@ export class NewsFilterAgentOptimized extends BaseAgentSimple {
 
       // Step 5: Check and trigger publisher with lower threshold
       console.log(`[${this.agentName}] 🔄 TRIGGERING PUBLISHER CHECK...`);
+      this.pipelineLogger.logStageStart('PUBLISHER_CHECK');
+
       await this.checkAndTriggerPublisherOptimized();
+
+      this.pipelineLogger.logStageComplete('PUBLISHER_CHECK');
       console.log(`[${this.agentName}] ✅ Publisher check completed`);
+
+      // Generate and save comprehensive run summary
+      const summary = await this.pipelineLogger.generateRunSummary();
+      console.log(`[${this.agentName}] 📊 Pipeline summary generated: ${summary.efficiency_score}% efficiency`);
 
     } catch (error) {
       const errorMsg = error instanceof Error ? error.message : String(error);
       this.logError('runFilterCycle', errorMsg);
+      this.pipelineLogger.logError('runFilterCycle', error instanceof Error ? error : new Error(errorMsg));
       console.error(`[${this.agentName}] ❌ Error in optimized filter cycle:`, error);
     }
   }
@@ -497,7 +528,7 @@ Remember: Quality over quantity. Be selective and prioritize truly valuable info
   }
 
   /**
-   * Optimized execution and parsing
+   * Optimized execution and parsing with improved KiloCode handling
    */
   private async executeAndParseOptimized(req: any): Promise<FilterResult[]> {
     const execAsync = promisify(exec);
@@ -515,12 +546,83 @@ Remember: Quality over quantity. Be selective and prioritize truly valuable info
     await fs.writeFile(tempPromptPath, req.prompt, 'utf-8');
     console.log(`\n📝 OPTIMIZED PROMPT (${req.prompt.length} chars)...`);
 
-    const command = `type "${tempPromptPath}" | kilocode -m ask --auto --json > "${cachePath}"`;
+    // Set up environment with Git in PATH for Windows compatibility
+    const env = {
+      ...process.env,
+      PATH: process.platform === 'win32'
+        ? `${process.env.PATH};C:\\Program Files\\Git\\cmd`
+        : `${process.env.PATH}:/mnt/c/Program Files/Git/cmd`
+    };
+
+    // Try different approaches for maximum compatibility
+    const approaches = [
+      {
+        name: 'File input approach (preferred)',
+        exec: async () => {
+          // Direct file input - most reliable approach
+          const command = `kilocode -m ask --auto --json "${tempPromptPath}" > "${cachePath}"`;
+          await execAsync(command, { timeout: 150000, env });
+          return await fs.readFile(cachePath, 'utf-8');
+        }
+      },
+      {
+        name: 'Pipe approach (fallback)',
+        exec: async () => {
+          // Pipe approach as fallback
+          const command = `type "${tempPromptPath}" | kilocode -m ask --auto --json > "${cachePath}"`;
+          await execAsync(command, { timeout: 150000, env });
+          return await fs.readFile(cachePath, 'utf-8');
+        }
+      }
+    ];
+
+    let rawOutput = '';
+    let lastError: Error | null = null;
 
     try {
-      await execAsync(command, { timeout: 150000 }); // Increased timeout for larger batches
+      // Try each approach until one succeeds
+      for (const approach of approaches) {
+        console.log(`🔧 Trying ${approach.name}...`);
+        const approachStartTime = Date.now();
 
-      const rawOutput = await fs.readFile(cachePath, 'utf-8');
+        try {
+          rawOutput = await approach.exec() as string;
+          const approachDuration = Date.now() - approachStartTime;
+
+          // Log KiloCode execution details
+          this.pipelineLogger.logKiloCodeExecution(
+            'executeAndParseOptimized',
+            req.prompt.length,
+            rawOutput.length,
+            approachDuration,
+            approach.name,
+            true
+          );
+
+          console.log(`✅ ${approach.name} succeeded!`);
+          break;
+        } catch (error) {
+          const approachDuration = Date.now() - approachStartTime;
+
+          // Log failed KiloCode execution
+          this.pipelineLogger.logKiloCodeExecution(
+            'executeAndParseOptimized',
+            req.prompt.length,
+            0,
+            approachDuration,
+            approach.name,
+            false,
+            (error as Error).message
+          );
+
+          console.log(`❌ ${approach.name} failed:`, (error as Error).message);
+          lastError = error as Error;
+        }
+      }
+
+      if (!rawOutput) {
+        throw lastError || new Error('All approaches failed');
+      }
 
       // Enhanced parsing with better error handling
       const results = this.parseKiloCodeOutputOptimized(rawOutput);
@@ -538,6 +640,26 @@ Remember: Quality over quantity. Be selective and prioritize truly valuable info
 
     } catch (error) {
       console.error(`❌ Execution failed:`, error);
+
+      // Enhanced error reporting
+      const errorDetails = {
+        message: error instanceof Error ? error.message : String(error),
+        stack: error instanceof Error ? error.stack : undefined,
+        promptLength: req.prompt?.length || 0,
+        timestamp: new Date().toISOString(),
+        approaches: approaches.map(a => a.name)
+      };
+
+      console.error(`❌ Error details:`, errorDetails);
+
+      // Check if it's a KiloCode shell error
+      if ((error as Error).message.includes('Shell command failed') ||
+          (error as Error).message.includes('ENOENT') ||
+          (error as Error).message.includes('Invalid mode')) {
+        console.error(`[${this.agentName}] ❌ KiloCode LLM issue detected!`);
+        console.error(`[${this.agentName}] 💡 Check: KiloCode CLI installation, PATH, and API key`);
+      }
+
       return [];
     } finally {
       try {
@@ -1082,7 +1204,7 @@ Remember: Quality over quantity. Be selective and prioritize truly valuable info
 
   // Keep existing methods for X scraping (unchanged)
 
-  private async fetchPendingItems(): Promise<NewsItemToFilter[]> {
+  public async fetchPendingItems(): Promise<NewsItemToFilter[]> { // Make public for testing
     const client = await this.pool.connect();
     try {
       const res = await client.query(`

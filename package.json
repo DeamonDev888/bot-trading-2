@@ -34,7 +34,10 @@
     "test:x:service": "node test_x_components.mjs service",
     "test:x:filter": "node test_x_components.mjs filter",
     "test:x:publisher": "node test_x_components.mjs publisher",
-    "diagnose:x": "ts-node --esm diagnose_x_pipeline.ts"
+    "diagnose:x": "ts-node --esm diagnose_x_pipeline.ts",
+    "test:x-pipeline": "ts-node --esm src/backend/scripts/test_x_pipeline_fast.ts",
+    "view:logs": "ts-node --esm src/backend/scripts/view_pipeline_logs.ts",
+    "analyze:logs": "ts-node --esm src/backend/scripts/analyze_pipeline_logs.ts"
   },
   "keywords": [
     "trading",
