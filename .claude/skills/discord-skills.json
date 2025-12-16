@@ -1,0 +1,432 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Discord Bot Response Schema",
+  "description": "Schema for structured responses from Sniper Discord Bot",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["message", "poll", "file_upload", "embed", "modal", "buttons", "rich_message"],
+      "description": "Type of response to generate"
+    },
+    "content": {
+      "type": "string",
+      "description": "Main text content of the response"
+    },
+    "poll": {
+      "$ref": "#/$defs/PollData",
+      "description": "Poll data if type is 'poll'"
+    },
+    "file": {
+      "$ref": "#/$defs/FileData",
+      "description": "File data if type is 'file_upload'"
+    },
+    "embed": {
+      "$ref": "#/$defs/EmbedData",
+      "description": "Embed data if type is 'embed'"
+    },
+    "modal": {
+      "$ref": "#/$defs/ModalData",
+      "description": "Modal data if type is 'modal'"
+    },
+    "buttons": {
+      "$ref": "#/$defs/ButtonsData",
+      "description": "Buttons data if type is 'buttons'"
+    },
+    "code_blocks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/CodeBlock"
+      },
+      "description": "Array of code blocks to format"
+    },
+    "mentions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "User IDs or roles to mention"
+    },
+    "reactions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[\u{1F600}-\u{64FF}]$"
+      },
+      "description": "Emoji reactions to add"
+    }
+  },
+  "required": ["type", "content"],
+  "additionalProperties": false,
+  "$defs": {
+    "PollData": {
+      "type": "object",
+      "properties": {
+        "question": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "description": "Poll question"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+              },
+              "emoji": {
+                "type": "string",
+                "pattern": "^[\u{1F600}-\u{64FF}]$"
+              }
+            },
+            "required": ["text"]
+          },
+          "minItems": 2,
+          "maxItems": 10
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 604800,
+          "default": 3600,
+          "description": "Duration in seconds (max 7 days)"
+        },
+        "allow_multiselect": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": ["question", "options"]
+    },
+    "FileData": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "description": "Filename with extension"
+        },
+        "content": {
+          "type": "string",
+          "minLength": 1,
+          "description": "File content"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["javascript", "typescript", "python", "json", "markdown", "text", "csv", "yaml"],
+          "description": "File type for syntax highlighting"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 1024,
+          "description": "File description"
+        }
+      },
+      "required": ["name", "content"]
+    },
+    "EmbedData": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 256,
+          "description": "Embed title"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 4096,
+          "description": "Embed description"
+        },
+        "color": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 16777215,
+          "description": "Embed color in decimal (e.g., 0x3498db)"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Embed title URL"
+        },
+        "thumbnail": {
+          "$ref": "#/$defs/ImageData"
+        },
+        "image": {
+          "$ref": "#/$defs/ImageData"
+        },
+        "author": {
+          "$ref": "#/$defs/AuthorData"
+        },
+        "footer": {
+          "$ref": "#/$defs/FooterData"
+        },
+        "fields": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/FieldData"
+          },
+          "maxItems": 25
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Embed timestamp"
+        }
+      },
+      "required": []
+    },
+    "ModalData": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 45,
+          "description": "Modal title"
+        },
+        "custom_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Modal custom identifier"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ModalComponent"
+          },
+          "minItems": 1,
+          "maxItems": 5
+        }
+      },
+      "required": ["title", "custom_id", "components"]
+    },
+    "ButtonsData": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ButtonData"
+          },
+          "minItems": 1,
+          "maxItems": 5
+        }
+      },
+      "required": ["buttons"]
+    },
+    "CodeBlock": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string",
+          "enum": ["javascript", "typescript", "python", "json", "yaml", "markdown", "bash", "sql", "html", "css", "text"],
+          "description": "Programming language for syntax highlighting"
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Code content"
+        },
+        "filename": {
+          "type": "string",
+          "description": "Optional filename for download"
+        }
+      },
+      "required": ["language", "code"]
+    },
+    "ImageData": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Image URL"
+        },
+        "proxy_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": ["url"]
+    },
+    "AuthorData": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "icon_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "proxy_icon_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["name"]
+    },
+    "FooterData": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "maxLength": 2048
+        },
+        "icon_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "proxy_icon_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["text"]
+    },
+    "FieldData": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "value": {
+          "type": "string",
+          "maxLength": 1024
+        },
+        "inline": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": ["name", "value"]
+    },
+    "ModalComponent": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "integer",
+          "enum": [4],
+          "description": "Component type (4 = Action Row)"
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ModalInput"
+          },
+          "minItems": 1,
+          "maxItems": 5
+        }
+      },
+      "required": ["type", "components"]
+    },
+    "ModalInput": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "integer",
+          "enum": [1],
+          "description": "Input type (1 = Text Input)"
+        },
+        "custom_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 45
+        },
+        "style": {
+          "type": "integer",
+          "enum": [1, 2],
+          "description": "Input style (1 = Short, 2 = Paragraph)"
+        },
+        "placeholder": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "value": {
+          "type": "string",
+          "maxLength": 4000
+        },
+        "required": {
+          "type": "boolean",
+          "default": false
+        },
+        "min_length": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4000
+        },
+        "max_length": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4000
+        }
+      },
+      "required": ["type", "custom_id", "label"]
+    },
+    "ButtonData": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "integer",
+          "enum": [2],
+          "description": "Component type (2 = Button)"
+        },
+        "style": {
+          "type": "integer",
+          "enum": [1, 2, 3, 4, 5],
+          "description": "Button style (1=Primary, 2=Secondary, 3=Success, 4=Danger, 5=Link)"
+        },
+        "label": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "custom_id": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "emoji": {
+          "type": "string",
+          "pattern": "^[\u{1F600}-\u{64FF}]$"
+        },
+        "disabled": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": ["type", "style"],
+      "oneOf": [
+        {"required": ["label"]},
+        {"required": ["url"]}
+      ]
+    }
+  }
+}

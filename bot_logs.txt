@@ -1,0 +1,47 @@
+1. Starting bot...
+2. Dotenv loaded
+🔒 Vérification instance unique...
+⚠️ Une autre instance tourne (PID: 25696). Arrêt forcé...
+✅ Instance précédente 25696 tuée.
+📌 PID mis à jour: 29516
+3. Creating client...
+4. Client created
+5. Creating sniper...
+🆕 Session partagée initialisée: shared_session_1765561299441
+✅ Loaded 20 channel mappings from environment
+🆕 Session partagée initialisée: shared_session_1765561299442
+⏰ Configuration des cron jobs...
+📌 Cron job x_scraper configuré avec: 0 * * * *
+📌 Cron job aggregator_pipeline configuré avec: 0 */3 * * *
+✅ 2 cron jobs actifs (x_scraper + aggregator_pipeline)
+📂 Aucun état de session partagée à charger
+6. SniperFinancialBot created
+🔧 Mode CLI détecté: commande 'run_bot'
+✅ Interaction handler registered: view_details
+✅ Interaction handler registered: export_report
+✅ Interaction handler registered: refresh_data
+✅ Interaction handler registered: buy_order
+✅ Interaction handler registered: sell_order
+✅ Interaction handler registered: poll_config_modal
+✅ Interaction handler registered: trading_alert_modal
+✅ Interaction handler registered: asset_select
+✅ Interaction handler registered: technical_analysis
+✅ Interaction handler registered: news_update
+🎮 Configuration des handlers intelligents...
+✅ Dynamic interaction handler registered: period_selection
+✅ Dynamic interaction handler registered: asset_select
+✅ Système intelligent activé - Tous les customIds seront analysés automatiquement
+7. Handlers set
+[sniper] 🚀 Initialisation KiloCode persistant...
+[discord-chatbot] 🚀 Démarrage KiloCode en mode persistant...
+[discord-chatbot] Using KiloCode path: cmd.exe
+[discord-chatbot] Using KiloCode args: /c C:\Users\Deamon\AppData\Roaming\npm\kilocode.cmd -m code --auto --json
+[discord-chatbot] Working directory: C:\Users\Deamon\Desktop\Backup\financial analyst
+[discord-chatbot] 📤 Envoi du prompt système (692 caractères)...
+[discord-chatbot] ⏳ Initialisation de KiloCode en cours...
+[discord-chatbot] ⏱️ Timeout configuré à 120s pour cette réponse
+✅ Chargé 0 profils membres
+✅ Chargé 0 profils membres
+🤖 Sniper Financial Bot (Sniper Analyste Financier#5860) est connecté !
+(node:29516) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\Deamon\\Onglet Connector\\playwright-mcp-latest\\cli.js"
+      ]
+    }
+  }
+}

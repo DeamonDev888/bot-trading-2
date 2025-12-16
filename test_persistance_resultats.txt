@@ -1,0 +1,21 @@
+RÉSULTATS DU TEST DE PERSISTANCE
+=================================
+
+Session ID: 96dc8b88-0e06-4bae-8e25-c004384dd295
+96dc8b88-0e06-4bae-8e25-c004384dd295
+96dc8b88-0e06-4bae-8e25-c004384dd295
+96dc8b88-0e06-4bae-8e25-c004384dd295
+96dc8b88-0e06-4bae-8e25-c004384dd295
+Date: 12 déc. 2025 18:30:48
+
+TEST 1 - Présentation:
+
+
+TEST 2 - Vérification mémoire:
+
+
+TEST 3 - Analyse ES:
+
+
+TEST 4 - Question personnalisée:
+

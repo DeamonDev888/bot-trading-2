@@ -1,0 +1,39 @@
+{
+  "id": "1765580821820",
+  "created": "2025-12-12T23:07:01.820Z",
+  "messages": [
+    {
+      "type": "user",
+      "content": "Bonjour! Je suis un test de persistance. Peux-tu te rappeler de moi dans les messages suivants?",
+      "timestamp": "2025-12-12T23:07:31.692Z",
+      "test": "message-1"
+    },
+    {
+      "type": "user",
+      "content": "Quel était mon premier message? Peux-tu me le répéter?",
+      "timestamp": "2025-12-12T23:07:32.695Z",
+      "test": "message-2"
+    },
+    {
+      "type": "user",
+      "content": "Fais une analyse simple du marché ES (E-mini S&P 500) pour aujourd'hui. Contexte: nous sommes en 2025, inflation en baisse, taux stables.",
+      "timestamp": "2025-12-12T23:07:33.710Z",
+      "test": "message-3"
+    },
+    {
+      "type": "user",
+      "content": "Basé sur ton analyse précédente, quel est ton sentiment général? Optimiste ou pessimiste?",
+      "timestamp": "2025-12-12T23:07:34.724Z",
+      "test": "message-4"
+    },
+    {
+      "type": "user",
+      "content": "{\"type\":\"structured_data\",\"data\":{\"symbol\":\"ES\",\"price\":4750.5,\"volume\":1500000,\"sentiment\":\"bullish\"},\"question\":\"Que penses-tu de ces données?\"}",
+      "timestamp": "2025-12-12T23:07:35.725Z",
+      "test": "message-5"
+    }
+  ],
+  "ended": "2025-12-12T23:07:36.737Z",
+  "totalMessages": 5,
+  "mode": "simulation"
+}

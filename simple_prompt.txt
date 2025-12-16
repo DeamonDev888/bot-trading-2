@@ -1,0 +1,6 @@
+Analyze these 2 financial news items and score them 1-10 for relevance:
+
+1. ID: test123, Title: Fed Williams says markets are strong, Source: FinancialJuice
+2. ID: test456, Title: CFTC reports S&P position changes, Source: FinancialJuice
+
+Return JSON exactly: {"results":[{"id":"test123","relevance_score":8,"processing_status":"RELEVANT","summary":"Fed commentary important"},{"id":"test456","relevance_score":7,"processing_status":"RELEVANT","summary":"CFTC data relevant"}]}

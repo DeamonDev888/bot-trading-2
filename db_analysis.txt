@@ -1,0 +1,75 @@
+﻿node.exe : (node:19720) [DEP0180] 
+DeprecationWarning: fs.Stats 
+constructor is deprecated.
+Au caractère Ligne:1 : 1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: ((node:19720) [D... is depre  
+  cated.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+(Use `node --trace-deprecation ...` to 
+show where the warning was created)
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ        DATABASE CLEANUP & OPTIMIZATION TOOL                Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+
+ΓÅ░ 2025-12-07 07 h 46 min 14 s
+
+≡ƒôè ANALYSE DE LA BASE DE DONN├ëES
+============================================================
+
+≡ƒôê STATISTIQUES G├ëN├ëRALES
+   Total items:        8┬á137
+   Titres uniques:     5┬á699
+   Doublons estim├⌐s:   2┬á438 (30.0%)
+   Taille table:       11 MB
+   
+≡ƒö┤ PROBL├êMES D├ëTECT├ëS
+   URLs invalides:     0
+   Items spam:         174
+   
+≡ƒôè SCORES & PUBLICATION
+   Score moyen:        2.21/10
+   Publi├⌐s Discord:    3┬á169
+   
+≡ƒôà P├ëRIODE
+   Plus ancien:        2025-11-21
+   Plus r├⌐cent:        2025-12-07
+
+≡ƒôü PAR SOURCE:
+   BLS                            761
+   TradingEconomics               695
+   X - Ronald van Loon (Ronald_vanLoon) 235
+   MarketWatch                    153
+   FinancialJuice                 127
+   X - Robert Scoble (Scobleizer) 126
+   ZeroHedge                      107
+   CBOE                           87
+   CNBC                           69
+   X - ForexLive (rebrand├⌐)       69
+
+≡ƒôé PAR CAT├ëGORIE:
+   FINANCE              3┬á083
+   AI                   2┬á343
+   Unknown              2┬á247
+   X-Technology         190
+   X-AI                 128
+   X-Finance            65
+   X-General            42
+   X-Robotics           24
+   Finance              11
+   CODE                 2
+
+≡ƒöä PAR STATUT:
+   processed       3┬á370
+   raw             4┬á767
+
+≡ƒôï Mode analyse uniquement (--analyze-only)
+   Pour ex├⌐cuter le nettoyage, relancez sans cette option.
+
+Γ£à Termin├⌐!

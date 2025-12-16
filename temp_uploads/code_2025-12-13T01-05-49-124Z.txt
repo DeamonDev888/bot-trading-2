@@ -1,0 +1,26 @@
+     ```
+     users[2]{id,name,role}:
+       1,Alice,admin
+       2,Bob,user
+     ```
+     - The `[2]` indicates the array length (optional but helpful for validation).
+     - Keys are listed once in the header, followed by comma-separated values per row.
+     - This reduces tokens by eliminating redundant key repetitions and structural overhead.
+
+2. **YAML to Toon**:
+   - YAML's indentation-heavy structure is flattened into Toon's tabular style. For instance, a YAML list of items becomes a compact array header with rows.
+
+3. **CSV to Toon**:
+   - CSV data (e.g., headers and rows) is directly mapped to Toon's array format, preserving delimiters and handling quoted fields.
+
+4. **Rewriting Existing Code**:
+   - Toon can refactor code snippets that embed JSON/YAML/CSV to use Toon instead, often as a drop-in replacement in prompts or data serialization logic.
+
+### Benefits and Optimizations
+- **Token Efficiency**: By condensing repetitive structures (e.g., no repeated keys in arrays), Toon minimizes the input size fed to LLMs, leading to faster processing, lower API costs, and better context utilization.
+- **LLM Readability**: The tabular format aligns with how models parse structured data, reducing parsing errors and improving response accuracy.
+- **Validation and Error Correction**: Built-in checks ensure data integrity; invalid structures are flagged and auto-corrected where possible.
+- **Flexibility**: Supports advanced options like custom delimiters for edge cases (e.g., data with embedded commas) or key folding for deeply nested objects.
+- **Performance Gains**: In practice, this can enhance model performance by allowing more data per prompt without exceeding limits.
+
+Toon is ideal for developers working with LLM integrations, data analysts optimizing prompts, or anyone serializing structured data for AI consumption. If you have a specific JSON, YAML, or CSV example you'd like converted, or need further details on implementation, let me know.

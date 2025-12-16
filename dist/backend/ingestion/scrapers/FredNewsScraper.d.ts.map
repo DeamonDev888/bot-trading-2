@@ -1,0 +1,1 @@
+{"version":3,"file":"FredNewsScraper.d.ts","sourceRoot":"","sources":["../../../../src/backend/ingestion/scrapers/FredNewsScraper.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,QAAQ,EAAE,MAAM,mBAAmB,CAAC;AAE7C,qBAAa,eAAe;IAC1B,OAAO,CAAC,UAAU,CAAa;;IAMzB,IAAI,IAAI,OAAO,CAAC,IAAI,CAAC;IAIrB,KAAK,IAAI,OAAO,CAAC,IAAI,CAAC;IAI5B;;OAEG;IACG,SAAS,IAAI,OAAO,CAAC,QAAQ,EAAE,CAAC;CAiBvC"}

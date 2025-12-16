@@ -1,0 +1,67 @@
+{
+  "embeds": [
+    {
+      "title": "🗺️ ROADMAP TECHNIQUE - PROGRESSION & PROCHAINES ÉTAPES",
+      "description": "Visualisation complète des étapes de développement",
+      "color": 3145431,
+      "fields": [
+        {
+          "name": "📊 Statut Global",
+          "value": "1/5 étapes validées (20%)\n🎯 Priorité Actuelle: Finaliser Données Fondamentales\n⏳ Prochaine Étape: Scraping Institutionnel",
+          "inline": false
+        },
+        {
+          "name": "📋 Détail des Étapes",
+          "value": "1️⃣ **Données Fondamentales** ✅\n   - En cours (80%)\n   - Intégration des journaux économiques\n   - Validation des sources primaires\n   - Action requise: Finalisation de l'intégration\n\n2️⃣ **Scraping Institutionnel** ⏳\n   - À démarrer\n   - Cibles: Federal Reserve, Trading Economics, Investopedia\n   - Contenu: Minutes, politiques monétaires, analyses\n   - Priorité: Haute\n\n3️⃣ **Indicateurs de Sentiment** ⏳\n   - Préparation\n   - Source: CBOE (Put/Call Ratio)\n   - Recherches: \"CBOE ratio\", \"Options market sentiment\"\n\n4️⃣ **Scraping Social** ⏳\n   - Planification\n   - Plateforme: X (Twitter)\n   - Focus: Tendances \"Whisper\" et \"Zone Bourse\"\n\n5️⃣ **Outils d'Analyse** 🎯\n   - Prochaine Phase\n   - Intégration SierraChart\n   - Suivi: SP500, VIX"
+        },
+        {
+          "name": "🔍 Recommandations",
+          "value": "- Focus immédiat: Finaliser l'étape 1 (Données Fondamentales)\n- Préparation: Commencer la recherche des sources pour l'étape 2\n- Risque: Retard potentiel sur le scraping social (dépend des API Twitter)",
+          "inline": false
+        },
+        {
+          "name": "📄 Prochaines Actions",
+          "value": "- Valider l'intégration des données fondamentales\n- Lancer le scraping des rapports Federal Reserve\n- Configurer les requêtes CBOE pour le Put/Call Ratio",
+          "inline": false
+        }
+      ],
+      "footer": {
+        "text": "Sniper Analyste Financier • Aujourd'hui à 20:53"
+      }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 1,
+          "label": "📊 Détails Techniques",
+          "custom_id": "details_tech",
+          "emoji": {
+            "name": "📊"
+          }
+        },
+        {
+          "type": 2,
+          "style": 1,
+          "label": "📈 Progression",
+          "custom_id": "progression",
+          "emoji": {
+            "name": "📈"
+          }
+        },
+        {
+          "type": 2,
+          "style": 1,
+          "label": "📊 Sondage Priorisation",
+          "custom_id": "poll_priorisation",
+          "emoji": {
+            "name": "📊"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2570 @@
+{
+  "https://r.jina.ai/http://x.com/katecrawford": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760406817,
+    "lastContentHash": "3a8f6682"
+  },
+  "https://r.jina.ai/http://x.com/geoffreyhinton": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760408674,
+    "lastContentHash": "-9bfb785"
+  },
+  "https://r.jina.ai/http://x.com/soumithchintala": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760410605,
+    "lastContentHash": "-22432f60"
+  },
+  "https://r.jina.ai/http://x.com/antgrasso": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 1765062453585,
+    "lastContentHash": "-22ea14d3",
+    "pausedUntil": 1765807308559
+  },
+  "https://r.jina.ai/http://x.com/rowancheung": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760414330,
+    "lastContentHash": "-22d9d3b9"
+  },
+  "https://r.jina.ai/http://x.com/KirkDBorne": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807320421
+  },
+  "https://r.jina.ai/http://x.com/demishassabis": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807322511
+  },
+  "https://r.jina.ai/http://x.com/sama": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760421255,
+    "lastContentHash": "-44e40cde"
+  },
+  "https://r.jina.ai/http://x.com/bernardmarr": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807326378
+  },
+  "https://r.jina.ai/http://x.com/waitin4agi_": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807328420
+  },
+  "https://r.jina.ai/http://x.com/AndrewYNg": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760428098,
+    "lastContentHash": "-3b92983d"
+  },
+  "https://r.jina.ai/http://x.com/karpathy": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760430037,
+    "lastContentHash": "5d0f3e44"
+  },
+  "https://r.jina.ai/http://x.com/fchollet": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760431809,
+    "lastContentHash": "-281b22b"
+  },
+  "https://r.jina.ai/http://x.com/lexfridman": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807376623
+  },
+  "https://r.jina.ai/http://x.com/kaifulee": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807391448
+  },
+  "https://r.jina.ai/http://x.com/ID_AA_Carmack": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807476191
+  },
+  "https://r.jina.ai/http://x.com/2morrowknight": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807483573
+  },
+  "https://r.jina.ai/http://x.com/ylecun": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807501100
+  },
+  "https://r.jina.ai/http://x.com/Scobleizer": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807516142
+  },
+  "https://r.jina.ai/http://x.com/drfeifei": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760438718,
+    "lastContentHash": "693b2b98"
+  },
+  "https://r.jina.ai/http://x.com/Ronald_vanLoon": {
+    "consecutiveFailures": 7,
+    "lastSuccess": 1765465330838,
+    "lastContentHash": "-48e09b2b",
+    "pausedUntil": 1765807580456
+  },
+  "https://r.jina.ai/http://x.com/TamaraMcCleary": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807589959
+  },
+  "https://r.jina.ai/http://x.com/goodfellow_ian": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760445542,
+    "lastContentHash": "-408368bb"
+  },
+  "https://r.jina.ai/http://x.com/jeffdean": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760447671,
+    "lastContentHash": "34aff24b"
+  },
+  "https://r.jina.ai/http://x.com/erikbryn": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807622674
+  },
+  "https://r.jina.ai/http://x.com/timnitgebru": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807688067
+  },
+  "https://r.jina.ai/http://x.com/oriolvinyalsml": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807697593
+  },
+  "https://r.jina.ai/http://x.com/GaryMarcus": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807713058
+  },
+  "https://r.jina.ai/http://x.com/NandoDF": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807728169
+  },
+  "https://r.jina.ai/http://x.com/randal_olson": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807737685
+  },
+  "https://r.jina.ai/http://x.com/mrogati": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807752208
+  },
+  "https://r.jina.ai/http://x.com/HaroldSinnott": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807761730
+  },
+  "https://r.jina.ai/http://x.com/YuHelenYu": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807771247
+  },
+  "https://r.jina.ai/http://x.com/mfordfuture": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807777851
+  },
+  "https://r.jina.ai/http://x.com/marcusborba": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807792790
+  },
+  "https://r.jina.ai/http://x.com/Nicochan33": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807807311
+  },
+  "https://lightbrd.com/chrismessina/rss": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807820575
+  },
+  "https://r.jina.ai/http://x.com/ceobillionaire": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807828249
+  },
+  "https://r.jina.ai/http://x.com/sallyeaves": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807837769
+  },
+  "https://r.jina.ai/http://x.com/fabiomoioli": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807847273
+  },
+  "https://r.jina.ai/http://x.com/pascal_bornet": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807860521
+  },
+  "https://r.jina.ai/http://x.com/thatroblennon": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 1765058875270,
+    "lastContentHash": "c801ccd",
+    "pausedUntil": 1765807875409
+  },
+  "https://r.jina.ai/http://x.com/iainljbrown": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807884933
+  },
+  "https://r.jina.ai/http://x.com/DataChaz": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760469441,
+    "lastContentHash": "5c7e7325"
+  },
+  "https://r.jina.ai/http://x.com/mrgreen": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760471214,
+    "lastContentHash": "-65b9bc64"
+  },
+  "https://r.jina.ai/http://x.com/clairesilver12": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760478065,
+    "lastContentHash": "-bb9ad9b"
+  },
+  "https://r.jina.ai/http://x.com/drhassanrashidi": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760479834,
+    "lastContentHash": "-1d0fdc44"
+  },
+  "https://r.jina.ai/http://x.com/abhi1thakur": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807980249
+  },
+  "https://r.jina.ai/http://x.com/yoheinakajima": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765807995857
+  },
+  "https://r.jina.ai/http://x.com/nigewillson": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808004901
+  },
+  "https://r.jina.ai/http://x.com/_karenhao": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760486621,
+    "lastContentHash": "30928e54"
+  },
+  "https://r.jina.ai/http://x.com/nathanlands": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760488402,
+    "lastContentHash": "2fe473d3"
+  },
+  "https://r.jina.ai/http://x.com/ingliguori": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808058826
+  },
+  "https://r.jina.ai/http://x.com/mattshumer_": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760490165,
+    "lastContentHash": "-28509d78"
+  },
+  "https://r.jina.ai/http://x.com/ESYudkowsky": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808080791
+  },
+  "https://r.jina.ai/http://x.com/petitegeek": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760503726,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/Thom_Wolf": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760505558,
+    "lastContentHash": "2173a36f"
+  },
+  "https://r.jina.ai/http://x.com/decisionleader": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808150180
+  },
+  "https://r.jina.ai/http://x.com/AnimaAnandkumar": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808165696
+  },
+  "https://r.jina.ai/http://x.com/IreneSolaiman": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808175181
+  },
+  "https://r.jina.ai/http://x.com/rama_akkiraju": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760512502,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/NoelleRussell_": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808201793
+  },
+  "https://r.jina.ai/http://x.com/BetaMoroney": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760514278,
+    "lastContentHash": "60b223a3"
+  },
+  "https://r.jina.ai/http://x.com/TheJackForge": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808227948
+  },
+  "https://r.jina.ai/http://x.com/gavofyork": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808237472
+  },
+  "https://r.jina.ai/http://x.com/gdb": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808259545
+  },
+  "https://r.jina.ai/http://x.com/GergelyOrosz": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808275035
+  },
+  "https://r.jina.ai/http://x.com/levelsio": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808284551
+  },
+  "https://r.jina.ai/http://x.com/jensimmons": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808301722
+  },
+  "https://r.jina.ai/http://x.com/jeresig": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808311244
+  },
+  "https://r.jina.ai/http://x.com/thenetninjauk": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808325778
+  },
+  "https://r.jina.ai/http://x.com/DevSimplified": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808341832
+  },
+  "https://r.jina.ai/http://x.com/traversymedia": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760526457,
+    "lastContentHash": "-799dde69"
+  },
+  "https://r.jina.ai/http://x.com/SaraSoueidan": {
+    "consecutiveFailures": 3,
+    "lastSuccess": 1765681338976,
+    "lastContentHash": "4b22dd8d"
+  },
+  "https://r.jina.ai/http://x.com/addyosmani": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808385543
+  },
+  "https://r.jina.ai/http://x.com/jasonfried": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760535176,
+    "lastContentHash": "35e0ae0b"
+  },
+  "https://r.jina.ai/http://x.com/BrendanEich": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808423724
+  },
+  "https://r.jina.ai/http://x.com/shanselman": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760537028,
+    "lastContentHash": "-4cd7794e"
+  },
+  "https://r.jina.ai/http://x.com/youyuxi": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808448964
+  },
+  "https://r.jina.ai/http://x.com/Una": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760538805,
+    "lastContentHash": "-1fa9022f"
+  },
+  "https://r.jina.ai/http://x.com/wesbos": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760545724,
+    "lastContentHash": "-3ba77861"
+  },
+  "https://lightbrd.com/dan_abramov/rss": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765631996257,
+    "lastContentHash": "58f7adf8",
+    "pausedUntil": 1765764425345
+  },
+  "https://r.jina.ai/http://x.com/codinghorror": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760547593,
+    "lastContentHash": "7057e3ed"
+  },
+  "https://r.jina.ai/http://x.com/thecodingtrain": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760549374,
+    "lastContentHash": "-ee54f23"
+  },
+  "https://r.jina.ai/http://x.com/CoreyMSchafer": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808506410
+  },
+  "https://r.jina.ai/http://x.com/moshhamedani": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760556254,
+    "lastContentHash": "7a4d90c5"
+  },
+  "https://r.jina.ai/http://x.com/jeremyphoward": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808568171
+  },
+  "https://r.jina.ai/http://x.com/OfficialLoganK": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808576277
+  },
+  "https://r.jina.ai/http://x.com/cassidoo": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808584924
+  },
+  "https://r.jina.ai/http://x.com/nanajanashia": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808591851
+  },
+  "https://r.jina.ai/http://x.com/joshuafluke": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808603960
+  },
+  "https://r.jina.ai/http://x.com/Errichto": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808610671
+  },
+  "https://r.jina.ai/http://x.com/annadaya": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808618020
+  },
+  "https://r.jina.ai/http://x.com/sentdex": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808634426
+  },
+  "https://r.jina.ai/http://x.com/DThompsonDev": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760563179,
+    "lastContentHash": "5ea5f013"
+  },
+  "https://r.jina.ai/http://x.com/anomisSi": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808692302
+  },
+  "https://r.jina.ai/http://x.com/tinahuang_": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808704947
+  },
+  "https://r.jina.ai/http://x.com/hosannahali": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808717118
+  },
+  "https://r.jina.ai/http://x.com/hiteshchoudhary": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808724700
+  },
+  "https://r.jina.ai/http://x.com/TheCherno": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808742220
+  },
+  "https://r.jina.ai/http://x.com/rasmus": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760575033,
+    "lastContentHash": "-1488ba1c"
+  },
+  "https://r.jina.ai/http://x.com/spolsky": {
+    "consecutiveFailures": 10,
+    "lastSuccess": 1765164256115,
+    "lastContentHash": "-634e5961",
+    "pausedUntil": 1765808765642
+  },
+  "https://r.jina.ai/http://x.com/cdibona": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808774417
+  },
+  "https://r.jina.ai/http://x.com/SergioRocks": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760576869,
+    "lastContentHash": "-2b251f71"
+  },
+  "https://r.jina.ai/http://x.com/TimBeiko": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808805778
+  },
+  "https://r.jina.ai/http://x.com/peter_szilagyi": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808911084
+  },
+  "https://r.jina.ai/http://x.com/ChrisStaud": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808919563
+  },
+  "https://r.jina.ai/http://x.com/kentcdodds": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760583799,
+    "lastContentHash": "2c53711f"
+  },
+  "https://r.jina.ai/http://x.com/swyx": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760585750,
+    "lastContentHash": "-3e9131dc"
+  },
+  "https://r.jina.ai/http://x.com/leeerob": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765808950620
+  },
+  "https://r.jina.ai/http://x.com/satyanadella": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760592521,
+    "lastContentHash": "-6031846a"
+  },
+  "https://r.jina.ai/http://x.com/AravSrinivas": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809011918
+  },
+  "https://r.jina.ai/http://x.com/alliekmiller": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765758998935,
+    "lastContentHash": "-75014871"
+  },
+  "https://r.jina.ai/http://x.com/tunguz": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809029424
+  },
+  "https://r.jina.ai/http://x.com/saranormous": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809038941
+  },
+  "https://r.jina.ai/http://x.com/venturetwins": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760601424,
+    "lastContentHash": "14ef7e69"
+  },
+  "https://r.jina.ai/http://x.com/nathanbenaich": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809099125
+  },
+  "https://r.jina.ai/http://x.com/pmddomingos": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809109274
+  },
+  "https://r.jina.ai/http://x.com/v_vashishta": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809125597
+  },
+  "https://r.jina.ai/http://x.com/alexandr_wang": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760603208,
+    "lastContentHash": "-5d3e6342"
+  },
+  "https://r.jina.ai/http://x.com/rasbt": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760610018,
+    "lastContentHash": "-318eb452"
+  },
+  "https://r.jina.ai/http://x.com/drjimfan": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760611836,
+    "lastContentHash": "b05c2f2"
+  },
+  "https://r.jina.ai/http://x.com/wesroth": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809207198
+  },
+  "https://r.jina.ai/http://x.com/harpercarrollai": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809219764
+  },
+  "https://r.jina.ai/http://x.com/zoink": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809228555
+  },
+  "https://r.jina.ai/http://x.com/nvidia": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760618672,
+    "lastContentHash": "-2bd43e7"
+  },
+  "https://r.jina.ai/http://x.com/OpenAI": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760620594,
+    "lastContentHash": "-3869b555"
+  },
+  "https://r.jina.ai/http://x.com/DeepMind": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809299961
+  },
+  "https://r.jina.ai/http://x.com/GoogleAI": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765722916188,
+    "lastContentHash": "-531d6173"
+  },
+  "https://r.jina.ai/http://x.com/AnthropicAI": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760624200,
+    "lastContentHash": "3ea0878d"
+  },
+  "https://r.jina.ai/http://x.com/GroqInc": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760631117,
+    "lastContentHash": "68d57b09"
+  },
+  "https://r.jina.ai/http://x.com/MetaAI": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765759160666,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/midjourney": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760634756,
+    "lastContentHash": "1ecf9c5d"
+  },
+  "https://r.jina.ai/http://x.com/MIT_CSAIL": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765759185419,
+    "lastContentHash": "-58e58dd1"
+  },
+  "https://r.jina.ai/http://x.com/IBMData": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760638367,
+    "lastContentHash": "4aff79d6"
+  },
+  "https://r.jina.ai/http://x.com/NVIDIAAI": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760645236,
+    "lastContentHash": "a455022"
+  },
+  "https://r.jina.ai/http://x.com/HyperWriteAI": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809483234
+  },
+  "https://r.jina.ai/http://x.com/chriscoyier": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760647277,
+    "lastContentHash": "6277496f"
+  },
+  "https://r.jina.ai/http://x.com/paul_irish": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809509574
+  },
+  "https://r.jina.ai/http://x.com/davidwalshblog": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765759281228,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/deepseek_ai": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760657686,
+    "lastContentHash": "-7b4f990c"
+  },
+  "https://r.jina.ai/http://x.com/arena": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760659684,
+    "lastContentHash": "4d499b5a"
+  },
+  "https://r.jina.ai/http://x.com/ArtificialAnlys": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809568553
+  },
+  "https://r.jina.ai/http://x.com/OpenAIDevs": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760661525,
+    "lastContentHash": "-385834d6"
+  },
+  "https://r.jina.ai/http://x.com/Kimi_Moonshot": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760663260,
+    "lastContentHash": "4a960b40"
+  },
+  "https://r.jina.ai/http://x.com/Alibaba_Qwen": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760670084,
+    "lastContentHash": "-1fb459bd"
+  },
+  "https://r.jina.ai/http://x.com/MiniMax__AI": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760671982,
+    "lastContentHash": "4ba7c748"
+  },
+  "https://r.jina.ai/http://x.com/GoogleDeepMind": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760673814,
+    "lastContentHash": "-58c79fb2"
+  },
+  "https://r.jina.ai/http://x.com/googleaidevs": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765759412562,
+    "lastContentHash": "4ed2eec4"
+  },
+  "https://r.jina.ai/http://x.com/Ali_TongyiLab": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760677385,
+    "lastContentHash": "2949fff3"
+  },
+  "https://r.jina.ai/http://x.com/ai_for_success": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760684223,
+    "lastContentHash": "6226de99"
+  },
+  "https://r.jina.ai/http://x.com/testingcatalog": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760686096,
+    "lastContentHash": "37938bb4"
+  },
+  "https://r.jina.ai/http://x.com/arcprize": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760687859,
+    "lastContentHash": "35955498"
+  },
+  "https://r.jina.ai/http://x.com/_valsai": {
+    "consecutiveFailures": 11,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765809752642
+  },
+  "https://r.jina.ai/http://x.com/TencentHunyuan": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760689658,
+    "lastContentHash": "-6f968c12"
+  },
+  "https://r.jina.ai/http://x.com/perplexity_ai": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765760696674,
+    "lastContentHash": "-7b55fd82"
+  },
+  "https://r.jina.ai/http://x.com/spectatorindex": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611158329
+  },
+  "https://r.jina.ai/http://x.com/alifarhat79": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611166635
+  },
+  "https://r.jina.ai/http://x.com/FXStreetNews": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611173714
+  },
+  "https://r.jina.ai/http://x.com/theblaze": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563822185,
+    "lastContentHash": "-544d3c0f"
+  },
+  "https://r.jina.ai/http://x.com/investinglive_": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611190509
+  },
+  "https://r.jina.ai/http://x.com/TheInsiderPaper": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765559239939,
+    "lastContentHash": "-473b84dd"
+  },
+  "https://r.jina.ai/http://x.com/Trade_The_News": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611211277
+  },
+  "https://r.jina.ai/http://x.com/NewsWire_US": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563831200,
+    "lastContentHash": "-259796a5"
+  },
+  "https://r.jina.ai/http://x.com/JesseCohenInv": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611228318
+  },
+  "https://r.jina.ai/http://x.com/Investingcom": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563832987,
+    "lastContentHash": "-2983c9b7"
+  },
+  "https://r.jina.ai/http://x.com/Benzinga": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563839816,
+    "lastContentHash": "7858588d"
+  },
+  "https://r.jina.ai/http://x.com/RedboxWire": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611271507
+  },
+  "https://r.jina.ai/http://x.com/VP": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563843605,
+    "lastContentHash": "58525925"
+  },
+  "https://r.jina.ai/http://x.com/POTUS": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765338499320,
+    "lastContentHash": "-1f3f7316",
+    "pausedUntil": 1765628600134
+  },
+  "https://r.jina.ai/http://x.com/GlobalMktObserv": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563850506,
+    "lastContentHash": "f2b1faf"
+  },
+  "https://r.jina.ai/http://x.com/CopperBullish": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611329435
+  },
+  "https://r.jina.ai/http://x.com/Banana3Stocks": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563852339,
+    "lastContentHash": "13d4768a"
+  },
+  "https://r.jina.ai/http://x.com/htsfhickey": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611350121
+  },
+  "https://r.jina.ai/http://x.com/Crescat_Capital": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563855456,
+    "lastContentHash": "75bf0410"
+  },
+  "https://r.jina.ai/http://x.com/TrumpDailyPosts": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765524979797,
+    "lastContentHash": "141b7508",
+    "pausedUntil": 1765639335552
+  },
+  "https://r.jina.ai/http://x.com/TheMacroPulse": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611387267
+  },
+  "https://r.jina.ai/http://x.com/LukeGromen": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563862336,
+    "lastContentHash": "-76fc6cf4"
+  },
+  "https://r.jina.ai/http://x.com/menlobear": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765437720326,
+    "lastContentHash": "162cce58",
+    "pausedUntil": 1765647789424
+  },
+  "https://r.jina.ai/http://x.com/conksresearch": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765200041749,
+    "lastContentHash": "1ce48447",
+    "pausedUntil": 1765598989806
+  },
+  "https://r.jina.ai/http://x.com/MichaelMOTTCM": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611409953
+  },
+  "https://r.jina.ai/http://x.com/MacroAlf": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563869206,
+    "lastContentHash": "-1980015c"
+  },
+  "https://r.jina.ai/http://x.com/DOGE": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563871777,
+    "lastContentHash": "-16691bdc"
+  },
+  "https://r.jina.ai/http://x.com/AnnaEconomist": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611444883
+  },
+  "https://r.jina.ai/http://x.com/eliant_capital": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563873629,
+    "lastContentHash": "-7bffd250"
+  },
+  "https://r.jina.ai/http://x.com/MarketRebels": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611459524
+  },
+  "https://r.jina.ai/http://x.com/faststocknewss": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563880747,
+    "lastContentHash": "6b733b49"
+  },
+  "https://r.jina.ai/http://x.com/elonmusk": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765228922451,
+    "lastContentHash": "-7f098c80",
+    "pausedUntil": 1765621379928
+  },
+  "https://r.jina.ai/http://x.com/EconomyApp": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611475773
+  },
+  "https://r.jina.ai/http://x.com/ByteEcosystem": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563882605,
+    "lastContentHash": "184ba8ae"
+  },
+  "https://r.jina.ai/http://x.com/zeromediafeed": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611505534
+  },
+  "https://r.jina.ai/http://x.com/unusual_whales": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563889351,
+    "lastContentHash": "-5b5a58f1"
+  },
+  "https://r.jina.ai/http://x.com/squawksquare": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563891109,
+    "lastContentHash": "-4d6ffd85"
+  },
+  "https://r.jina.ai/http://x.com/TroyTeslike": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611539553
+  },
+  "https://r.jina.ai/http://x.com/StockMKTNewz": {
+    "consecutiveFailures": 8,
+    "lastSuccess": 1765178915663,
+    "lastContentHash": "1f0b0ec7",
+    "pausedUntil": 1765611553979
+  },
+  "https://r.jina.ai/http://x.com/GerberKawasaki": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611568603
+  },
+  "https://r.jina.ai/http://x.com/garyblack00": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563897958,
+    "lastContentHash": "2377164"
+  },
+  "https://r.jina.ai/http://x.com/stevenmarkryan": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611586836
+  },
+  "https://r.jina.ai/http://x.com/heydave7": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563899721,
+    "lastContentHash": "7b959d21"
+  },
+  "https://r.jina.ai/http://x.com/SawyerMerritt": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611611344
+  },
+  "https://r.jina.ai/http://x.com/QTRResearch": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611624699
+  },
+  "https://r.jina.ai/http://x.com/Fxhedgers": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563906995,
+    "lastContentHash": "24ea353"
+  },
+  "https://r.jina.ai/http://x.com/TicTocTick": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611649686
+  },
+  "https://r.jina.ai/http://x.com/zerohedge": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765459338451,
+    "lastContentHash": "1a6f3d1a",
+    "pausedUntil": 1765596029358
+  },
+  "https://r.jina.ai/http://x.com/RealAlphaWifey": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765437947000,
+    "lastContentHash": "162cce58",
+    "pausedUntil": 1765647936621
+  },
+  "https://r.jina.ai/http://x.com/MenthorQpro": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563913783,
+    "lastContentHash": "-14e910aa"
+  },
+  "https://r.jina.ai/http://x.com/simon_ree": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563915612,
+    "lastContentHash": "53e23c65"
+  },
+  "https://r.jina.ai/http://x.com/ces921": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563917389,
+    "lastContentHash": "-2b630aaa"
+  },
+  "https://r.jina.ai/http://x.com/joegilster": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563919099,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/Mr_Derivatives": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765473834998,
+    "lastContentHash": "18b213d4",
+    "pausedUntil": 1765603479469
+  },
+  "https://r.jina.ai/http://x.com/VincentDeluard": {
+    "consecutiveFailures": 8,
+    "lastSuccess": 1765078038297,
+    "lastContentHash": "2fc61dd1",
+    "pausedUntil": 1765611700922
+  },
+  "https://r.jina.ai/http://x.com/TradingThomas3": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563925951,
+    "lastContentHash": "19e14508"
+  },
+  "https://r.jina.ai/http://x.com/KathyJones": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563927753,
+    "lastContentHash": "761d22d1"
+  },
+  "https://r.jina.ai/http://x.com/TheStreet": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611734460
+  },
+  "https://r.jina.ai/http://x.com/SquawkCNBC": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765525351236,
+    "lastContentHash": "e034999",
+    "pausedUntil": 1765639662474
+  },
+  "https://r.jina.ai/http://x.com/BloombergTV": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563934783,
+    "lastContentHash": "-45c0e962"
+  },
+  "https://r.jina.ai/http://x.com/CNBCOvertime": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563936670,
+    "lastContentHash": "3227d81"
+  },
+  "https://r.jina.ai/http://x.com/MarketWatch": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765535255399,
+    "lastContentHash": "25d7cbc6",
+    "pausedUntil": 1765645780998
+  },
+  "https://r.jina.ai/http://x.com/DannyDayan5": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563939148,
+    "lastContentHash": "-46eb23e7"
+  },
+  "https://r.jina.ai/http://x.com/Convertbond": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563941096,
+    "lastContentHash": "-4cf0d308"
+  },
+  "https://r.jina.ai/http://x.com/Barchart": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563947918,
+    "lastContentHash": "-3d32ff3a"
+  },
+  "https://r.jina.ai/http://x.com/IvanWerning": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611826633
+  },
+  "https://r.jina.ai/http://x.com/Nouriel": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563949795,
+    "lastContentHash": "-69e361a1"
+  },
+  "https://r.jina.ai/http://x.com/CliffordAsness": {
+    "consecutiveFailures": 8,
+    "lastSuccess": 1765085659907,
+    "lastContentHash": "-7cb285d6",
+    "pausedUntil": 1765611845482
+  },
+  "https://r.jina.ai/http://x.com/LanceRoberts": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611854998
+  },
+  "https://r.jina.ai/http://x.com/MichaelAArouet": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563956550,
+    "lastContentHash": "126d8661"
+  },
+  "https://r.jina.ai/http://x.com/EPBResearch": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563958310,
+    "lastContentHash": "e7264a8"
+  },
+  "https://r.jina.ai/http://x.com/Callum_Thomas": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563960530,
+    "lastContentHash": "-3558cbfc"
+  },
+  "https://r.jina.ai/http://x.com/TimmerFidelity": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563962361,
+    "lastContentHash": "-61ce7e17"
+  },
+  "https://r.jina.ai/http://x.com/GregDaco": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563964178,
+    "lastContentHash": "760bddf8"
+  },
+  "https://r.jina.ai/http://x.com/MikeZaccardi": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765611926636
+  },
+  "https://r.jina.ai/http://x.com/Hedgeye": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765559428458,
+    "lastContentHash": "26c2f97d"
+  },
+  "https://r.jina.ai/http://x.com/charliebilello": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563973523,
+    "lastContentHash": "-7703142a"
+  },
+  "https://r.jina.ai/http://x.com/bespokeinvest": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563975275,
+    "lastContentHash": "-5965442e"
+  },
+  "https://r.jina.ai/http://x.com/LizThomasStrat": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563977113,
+    "lastContentHash": "38c3f827"
+  },
+  "https://r.jina.ai/http://x.com/DataArbor": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563984131,
+    "lastContentHash": "70f271c5"
+  },
+  "https://r.jina.ai/http://x.com/LizAnnSonders": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563985922,
+    "lastContentHash": "-5b02fec6"
+  },
+  "https://r.jina.ai/http://x.com/sentimentrader": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563988303,
+    "lastContentHash": "6890d25a"
+  },
+  "https://r.jina.ai/http://x.com/bsurveillance": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563991278,
+    "lastContentHash": "-4c32cbef"
+  },
+  "https://r.jina.ai/http://x.com/jooilong": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612057327
+  },
+  "https://r.jina.ai/http://x.com/realDonaldTrump": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765563999657,
+    "lastContentHash": "34aed7f6"
+  },
+  "https://r.jina.ai/http://x.com/SquawkStreet": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564001451,
+    "lastContentHash": "6de421ae"
+  },
+  "https://r.jina.ai/http://x.com/jimcramer": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612106111
+  },
+  "https://r.jina.ai/http://x.com/Stocktwits": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765474192617,
+    "lastContentHash": "-7cb285d6",
+    "pausedUntil": 1765603875838
+  },
+  "https://r.jina.ai/http://x.com/BobSheehan_": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765432533006,
+    "lastContentHash": "-69ee8f85",
+    "pausedUntil": 1765640011052
+  },
+  "https://r.jina.ai/http://x.com/Conflicts": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612120735
+  },
+  "https://r.jina.ai/http://x.com/Politics_Polls": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612130245
+  },
+  "https://r.jina.ai/http://x.com/DecisionDeskHQ": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564008353,
+    "lastContentHash": "-6fa468a5"
+  },
+  "https://r.jina.ai/http://x.com/HedgeyeUSA": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612161475
+  },
+  "https://r.jina.ai/http://x.com/ScotiaEconomics": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564010069,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/crossbordercap": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564016910,
+    "lastContentHash": "662193fb"
+  },
+  "https://r.jina.ai/http://x.com/alsabogal": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612194255
+  },
+  "https://r.jina.ai/http://x.com/AdamMancini4": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564018741,
+    "lastContentHash": "-640f5aa8"
+  },
+  "https://r.jina.ai/http://x.com/KobeissiLetter": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564021094,
+    "lastContentHash": "-10644414"
+  },
+  "https://r.jina.ai/http://x.com/HF_Trader": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612228583
+  },
+  "https://r.jina.ai/http://x.com/GavinGewecke": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564027922,
+    "lastContentHash": "75cc6ec"
+  },
+  "https://r.jina.ai/http://x.com/Scutty": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612257700
+  },
+  "https://r.jina.ai/http://x.com/Econimica": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564029659,
+    "lastContentHash": "-38d97c23"
+  },
+  "https://r.jina.ai/http://x.com/Brad_Setser": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765561972787,
+    "lastContentHash": "4bcd8eda"
+  },
+  "https://r.jina.ai/http://x.com/BittelJulien": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564033595,
+    "lastContentHash": "-5542ad"
+  },
+  "https://r.jina.ai/http://x.com/alphaking112358": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564040372,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/danielboffey": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564042375,
+    "lastContentHash": "2d86987f"
+  },
+  "https://r.jina.ai/http://x.com/forexflowlive": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564044232,
+    "lastContentHash": "-69d64428"
+  },
+  "https://r.jina.ai/http://x.com/jonathanvswan": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612365523
+  },
+  "https://r.jina.ai/http://x.com/meremortenlund": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564045984,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/ReformedTrader": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612395851
+  },
+  "https://r.jina.ai/http://x.com/elliottengage": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612405380
+  },
+  "https://r.jina.ai/http://x.com/Tatiana_Evd": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564052874,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/RickRieder": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612438821
+  },
+  "https://r.jina.ai/http://x.com/WSJCentralBanks": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564054660,
+    "lastContentHash": "6933a1f1"
+  },
+  "https://r.jina.ai/http://x.com/sarahoconnor_": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564061462,
+    "lastContentHash": "-37bf3d73"
+  },
+  "https://r.jina.ai/http://x.com/beth_stanton": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564063517,
+    "lastContentHash": "6e86ad89"
+  },
+  "https://r.jina.ai/http://x.com/MikeDorning": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612487018
+  },
+  "https://r.jina.ai/http://x.com/EamonJavers": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612503356
+  },
+  "https://r.jina.ai/http://x.com/QuikStrike1": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612512877
+  },
+  "https://r.jina.ai/http://x.com/byHeatherLong": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564070356,
+    "lastContentHash": "-1eac3a51"
+  },
+  "https://r.jina.ai/http://x.com/VKMacro": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612542766
+  },
+  "https://r.jina.ai/http://x.com/NewsEdward": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612551161
+  },
+  "https://r.jina.ai/http://x.com/KansasCityFed": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564072251,
+    "lastContentHash": "3cf094a9"
+  },
+  "https://r.jina.ai/http://x.com/paxtrader777": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 1765072714984,
+    "lastContentHash": "4a2aef1f",
+    "pausedUntil": 1765612584847
+  },
+  "https://r.jina.ai/http://x.com/formerhfpm": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612596574
+  },
+  "https://r.jina.ai/http://x.com/mhirtz": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612606085
+  },
+  "https://r.jina.ai/http://x.com/katewilsea": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564079408,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/nrothschild3": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612623000
+  },
+  "https://r.jina.ai/http://x.com/themarketear": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612632516
+  },
+  "https://r.jina.ai/http://x.com/fxmacro": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564086244,
+    "lastContentHash": "16c4a3d"
+  },
+  "https://r.jina.ai/http://x.com/MacroCharts": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564088008,
+    "lastContentHash": "-478317ba"
+  },
+  "https://r.jina.ai/http://x.com/Marketsticker1": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564089701,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/saikysays": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564091471,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/petergarnry": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564093423,
+    "lastContentHash": "-70ca5f64"
+  },
+  "https://r.jina.ai/http://x.com/ComCurCon": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612706353
+  },
+  "https://r.jina.ai/http://x.com/Jesse_Livermore": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612723667
+  },
+  "https://r.jina.ai/http://x.com/spotgamma": {
+    "consecutiveFailures": 8,
+    "lastSuccess": 1765086507411,
+    "lastContentHash": "-3c2b821b",
+    "pausedUntil": 1765612741191
+  },
+  "https://r.jina.ai/http://x.com/BNONews": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612750721
+  },
+  "https://r.jina.ai/http://x.com/FedResearch": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564100285,
+    "lastContentHash": "4db785f9"
+  },
+  "https://r.jina.ai/http://x.com/johnjhardy": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612782768
+  },
+  "https://r.jina.ai/http://x.com/EddBolingbroke": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564107028,
+    "lastContentHash": "366f98cb"
+  },
+  "https://r.jina.ai/http://x.com/ScottMinerd": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564108820,
+    "lastContentHash": "-1a555e50"
+  },
+  "https://r.jina.ai/http://x.com/David_Churchill": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564110507,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/ChrisVarvares": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564112258,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/OxfordEconomics": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564119126,
+    "lastContentHash": "-23891cac"
+  },
+  "https://r.jina.ai/http://x.com/JoeTwyman": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612882215
+  },
+  "https://r.jina.ai/http://x.com/The_Coskun": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564131856,
+    "lastContentHash": "-7fdf1f31"
+  },
+  "https://r.jina.ai/http://x.com/tombradby": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612907331
+  },
+  "https://r.jina.ai/http://x.com/MrBlonde_macro": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612921700
+  },
+  "https://r.jina.ai/http://x.com/nktpnd": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612936207
+  },
+  "https://r.jina.ai/http://x.com/YuanTalks": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612952574
+  },
+  "https://r.jina.ai/http://x.com/JamesERothwell": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612962087
+  },
+  "https://r.jina.ai/http://x.com/DallasFed": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765612971615
+  },
+  "https://r.jina.ai/http://x.com/RenMacLLC": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564138681,
+    "lastContentHash": "41ee94a2"
+  },
+  "https://r.jina.ai/http://x.com/5_min_macro": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564147420,
+    "lastContentHash": "2934a5de"
+  },
+  "https://r.jina.ai/http://x.com/BrunoBrussels": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613011249
+  },
+  "https://r.jina.ai/http://x.com/henrymance": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564149163,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/fbirol": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564151101,
+    "lastContentHash": "1b667a78"
+  },
+  "https://r.jina.ai/http://x.com/eWhispers": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564152885,
+    "lastContentHash": "5d96274b"
+  },
+  "https://r.jina.ai/http://x.com/OliverRakau": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613080286
+  },
+  "https://r.jina.ai/http://x.com/B_Eichengreen": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613089816
+  },
+  "https://r.jina.ai/http://x.com/majilato": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613097982
+  },
+  "https://r.jina.ai/http://x.com/USTreasury": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765559622014,
+    "lastContentHash": "1df141b3"
+  },
+  "https://r.jina.ai/http://x.com/StephenSpratt": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613123655
+  },
+  "https://r.jina.ai/http://x.com/katiadmi": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613136199
+  },
+  "https://r.jina.ai/http://x.com/simoncoveney": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564168247,
+    "lastContentHash": "3bdca266"
+  },
+  "https://r.jina.ai/http://x.com/valuewalk": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613162787
+  },
+  "https://r.jina.ai/http://x.com/AmbJohnBolton": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564170082,
+    "lastContentHash": "-1d01d126"
+  },
+  "https://r.jina.ai/http://x.com/BearTrapsReport": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613189106
+  },
+  "https://r.jina.ai/http://x.com/centralbanknews": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564183508,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/iv_technicals": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613211595
+  },
+  "https://r.jina.ai/http://x.com/Thehackandhound": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613218816
+  },
+  "https://r.jina.ai/http://x.com/JBohnaker": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613226602
+  },
+  "https://r.jina.ai/http://x.com/BondHack": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613243446
+  },
+  "https://r.jina.ai/http://x.com/rosschawkins": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564191099,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/Jkylebass": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564192866,
+    "lastContentHash": "-6f6b6268"
+  },
+  "https://r.jina.ai/http://x.com/ZackEiseman": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613283833
+  },
+  "https://r.jina.ai/http://x.com/PredictWise": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613293038
+  },
+  "https://r.jina.ai/http://x.com/HayekAndKeynes": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613302556
+  },
+  "https://r.jina.ai/http://x.com/USGS_Quakes": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613317182
+  },
+  "https://r.jina.ai/http://x.com/lenkiefer": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613326098
+  },
+  "https://r.jina.ai/http://x.com/SkyNewsBreak": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613335606
+  },
+  "https://r.jina.ai/http://x.com/jendeben": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564199944,
+    "lastContentHash": "-3ecde3bf"
+  },
+  "https://r.jina.ai/http://x.com/ECONdailycharts": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613361702
+  },
+  "https://r.jina.ai/http://x.com/Port_Houston": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564206749,
+    "lastContentHash": "-44394c68"
+  },
+  "https://r.jina.ai/http://x.com/TaviCosta": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564209075,
+    "lastContentHash": "4013fc79"
+  },
+  "https://r.jina.ai/http://x.com/costareports": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613418949
+  },
+  "https://r.jina.ai/http://x.com/ppppolls": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613428218
+  },
+  "https://r.jina.ai/http://x.com/ClydeCommods": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564210755,
+    "lastContentHash": "1c801c28"
+  },
+  "https://r.jina.ai/http://x.com/freightinvestor": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564217621,
+    "lastContentHash": "-788dc69d"
+  },
+  "https://r.jina.ai/http://x.com/PantheonMacro": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613476954
+  },
+  "https://r.jina.ai/http://x.com/RJ_FXandRates": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613483787
+  },
+  "https://r.jina.ai/http://x.com/JoeMurphyLondon": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564219397,
+    "lastContentHash": "-c9fbd7c"
+  },
+  "https://r.jina.ai/http://x.com/Amdalleq": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564221100,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/bondstrategist": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564229028,
+    "lastContentHash": "5dfc6625"
+  },
+  "https://r.jina.ai/http://x.com/WarrenPies": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613527634
+  },
+  "https://r.jina.ai/http://x.com/kyliemaclellan": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613537141
+  },
+  "https://r.jina.ai/http://x.com/Barton_options": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564231483,
+    "lastContentHash": "5a61a40a"
+  },
+  "https://r.jina.ai/http://x.com/InvestorAmnesia": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564240148,
+    "lastContentHash": "29f2adc0"
+  },
+  "https://r.jina.ai/http://x.com/senoj_erialc": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613577073
+  },
+  "https://r.jina.ai/http://x.com/M_McDonough": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564247064,
+    "lastContentHash": "cc575a0"
+  },
+  "https://r.jina.ai/http://x.com/JZarif": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564248816,
+    "lastContentHash": "834c1dc"
+  },
+  "https://r.jina.ai/http://x.com/NickTimiraos": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613600635
+  },
+  "https://r.jina.ai/http://x.com/HenryNewman": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613610163
+  },
+  "https://r.jina.ai/http://x.com/IMFLive": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564255556,
+    "lastContentHash": "-3a19c21b"
+  },
+  "https://r.jina.ai/http://x.com/kitjuckes": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613642317
+  },
+  "https://r.jina.ai/http://x.com/TenYearNote": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613651009
+  },
+  "https://r.jina.ai/http://x.com/HarrisPoll": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613660252
+  },
+  "https://r.jina.ai/http://x.com/GenscapeAgBio": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613666703
+  },
+  "https://r.jina.ai/http://x.com/andrealeadsom": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564269713,
+    "lastContentHash": "-556391c5"
+  },
+  "https://r.jina.ai/http://x.com/Intellikon": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564271424,
+    "lastContentHash": "4f9d7e99"
+  },
+  "https://r.jina.ai/http://x.com/PhilFedResearch": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564273166,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/DaveRamsden1": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613722770
+  },
+  "https://r.jina.ai/http://x.com/kohntom": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564274906,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/baroninvestment": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564281941,
+    "lastContentHash": "6faaf83b"
+  },
+  "https://r.jina.ai/http://x.com/ChicagoFed": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613773272
+  },
+  "https://r.jina.ai/http://x.com/philadelphiafed": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564283770,
+    "lastContentHash": "-37a7dd5f"
+  },
+  "https://r.jina.ai/http://x.com/kaylatausche": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613798691
+  },
+  "https://r.jina.ai/http://x.com/DTNMarkets": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613808209
+  },
+  "https://r.jina.ai/http://x.com/lisaabramowicz1": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613822863
+  },
+  "https://r.jina.ai/http://x.com/RadicalAdem": {
+    "consecutiveFailures": 8,
+    "lastSuccess": 1765080060024,
+    "lastContentHash": "-23b80788",
+    "pausedUntil": 1765613838757
+  },
+  "https://r.jina.ai/http://x.com/neelkashkari": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613855389
+  },
+  "https://r.jina.ai/http://x.com/rankoberich": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564290944,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/BrianGierke": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564292705,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/onlyyoontv": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613913298
+  },
+  "https://r.jina.ai/http://x.com/FerroTV": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564306546,
+    "lastContentHash": "-3f520987"
+  },
+  "https://r.jina.ai/http://x.com/ukarlewitz": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613947751
+  },
+  "https://r.jina.ai/http://x.com/jmackin2": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613957270
+  },
+  "https://r.jina.ai/http://x.com/gordonrayner": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765613973036
+  },
+  "https://r.jina.ai/http://x.com/jc_econ": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564328878,
+    "lastContentHash": "-6e0e5072"
+  },
+  "https://r.jina.ai/http://x.com/samueltombs": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564335957,
+    "lastContentHash": "-7109d18"
+  },
+  "https://r.jina.ai/http://x.com/rahulkapoor11": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564344312,
+    "lastContentHash": "65d21460"
+  },
+  "https://r.jina.ai/http://x.com/AtlantaFed": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765434281981,
+    "lastContentHash": "75582c89",
+    "pausedUntil": 1765641102197
+  },
+  "https://r.jina.ai/http://x.com/MikaelSarwe": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564351613,
+    "lastContentHash": "-2bad7687"
+  },
+  "https://r.jina.ai/http://x.com/WSJmarkets": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564372485,
+    "lastContentHash": "1deb0916"
+  },
+  "https://r.jina.ai/http://x.com/willripleyCNN": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614059577
+  },
+  "https://r.jina.ai/http://x.com/hedgopia": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564380605,
+    "lastContentHash": "386abfbd"
+  },
+  "https://r.jina.ai/http://x.com/lomholt10": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614085849
+  },
+  "https://r.jina.ai/http://x.com/CNBCnow": {
+    "consecutiveFailures": 5,
+    "lastSuccess": 1765548950542,
+    "lastContentHash": "-1f03545",
+    "pausedUntil": 1765650798134
+  },
+  "https://r.jina.ai/http://x.com/federalreserve": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564410301,
+    "lastContentHash": "-720992b6"
+  },
+  "https://r.jina.ai/http://x.com/MehreenKhn": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614154243
+  },
+  "https://r.jina.ai/http://x.com/WilliamsonChris": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564424521,
+    "lastContentHash": "4ed84034"
+  },
+  "https://r.jina.ai/http://x.com/Lavorgnanomics": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614172468
+  },
+  "https://r.jina.ai/http://x.com/baldersdale": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765559923954,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/Alan_McGuinness": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614211659
+  },
+  "https://r.jina.ai/http://x.com/skughered": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614221170
+  },
+  "https://r.jina.ai/http://x.com/Ben_Winkley": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614230698
+  },
+  "https://r.jina.ai/http://x.com/BLS_gov": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614240212
+  },
+  "https://r.jina.ai/http://x.com/KateDavidson": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564453047,
+    "lastContentHash": "-43910bc2"
+  },
+  "https://r.jina.ai/http://x.com/nicholastreece": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564474122,
+    "lastContentHash": "2003de42"
+  },
+  "https://r.jina.ai/http://x.com/VixCentral": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614293225
+  },
+  "https://r.jina.ai/http://x.com/BrandonLewis": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765559967498,
+    "lastContentHash": "-1a749693"
+  },
+  "https://r.jina.ai/http://x.com/VMRConstancio": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614320262
+  },
+  "https://r.jina.ai/http://x.com/bondvigilantes": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614326752
+  },
+  "https://r.jina.ai/http://x.com/steveswitzerlan": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614339483
+  },
+  "https://r.jina.ai/http://x.com/USDOL": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765562675033,
+    "lastContentHash": "-7e3753ad"
+  },
+  "https://r.jina.ai/http://x.com/ftchina": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614365860
+  },
+  "https://r.jina.ai/http://x.com/PaulHannon29": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614374227
+  },
+  "https://r.jina.ai/http://x.com/johnauthers": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564528815,
+    "lastContentHash": "-304a785a"
+  },
+  "https://r.jina.ai/http://x.com/AliBunkallSKY": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614410625
+  },
+  "https://r.jina.ai/http://x.com/AlexLawler100": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765562684445,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/DavidInglesTV": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564559286,
+    "lastContentHash": "16b8da43"
+  },
+  "https://r.jina.ai/http://x.com/SpeakerPelosi": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564568135,
+    "lastContentHash": "-226c00b2"
+  },
+  "https://r.jina.ai/http://x.com/HelenCRobertson": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614463367
+  },
+  "https://r.jina.ai/http://x.com/JeoffHall": {
+    "consecutiveFailures": 1,
+    "lastSuccess": 1765562695116,
+    "lastContentHash": "-31c4e357"
+  },
+  "https://r.jina.ai/http://x.com/VPatelFX": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564588510,
+    "lastContentHash": "-435f1135"
+  },
+  "https://r.jina.ai/http://x.com/Macro_Hive": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564595309,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/credittrader": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564610272,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/RichFedResearch": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564623059,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/DaveNadig": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614534242
+  },
+  "https://r.jina.ai/http://x.com/PriapusIQ": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765434796353,
+    "lastContentHash": "6d396050",
+    "pausedUntil": 1765641447864
+  },
+  "https://r.jina.ai/http://x.com/arappeport": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614543769
+  },
+  "https://r.jina.ai/http://x.com/FT": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614553301
+  },
+  "https://r.jina.ai/http://x.com/3Sigmamarkets": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564635032,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/SoberLook": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765202060018,
+    "lastContentHash": "-403cf493",
+    "pausedUntil": 1765599641143
+  },
+  "https://r.jina.ai/http://x.com/bilalhafeez123": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564656145,
+    "lastContentHash": "-4d49a6de"
+  },
+  "https://r.jina.ai/http://x.com/kevinmuir": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564665637,
+    "lastContentHash": "-7e6ec295"
+  },
+  "https://r.jina.ai/http://x.com/FirstSquawk": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614602451
+  },
+  "https://r.jina.ai/http://x.com/DaveErnsberger": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614611272
+  },
+  "https://r.jina.ai/http://x.com/AWMCheung": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614625737
+  },
+  "https://r.jina.ai/http://x.com/DeItaone": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614635256
+  },
+  "https://r.jina.ai/http://x.com/chigrl": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614652802
+  },
+  "https://r.jina.ai/http://x.com/NewYorkFed": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564678243,
+    "lastContentHash": "64e4d4a2"
+  },
+  "https://r.jina.ai/http://x.com/financialjuice": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614677038
+  },
+  "https://r.jina.ai/http://x.com/FX_Button": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614691666
+  },
+  "https://r.jina.ai/http://x.com/MrMBrown": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564692062,
+    "lastContentHash": "-56e14d89"
+  },
+  "https://r.jina.ai/http://x.com/FinancialTimes": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564708362,
+    "lastContentHash": "-32994d8"
+  },
+  "https://r.jina.ai/http://x.com/LiveSquawk": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614734306
+  },
+  "https://r.jina.ai/http://x.com/Newsquawk": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564724427,
+    "lastContentHash": "4a02ae34"
+  },
+  "https://r.jina.ai/http://x.com/awealthofcs": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564738536,
+    "lastContentHash": "6ce39009"
+  },
+  "https://r.jina.ai/http://x.com/michaelbatnick": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614772002
+  },
+  "https://r.jina.ai/http://x.com/SallieKrawcheck": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614781514
+  },
+  "https://r.jina.ai/http://x.com/davidfaber": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564753574,
+    "lastContentHash": "-7b27c717"
+  },
+  "https://r.jina.ai/http://x.com/CNBC": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564760152,
+    "lastContentHash": "-2dede20a"
+  },
+  "https://r.jina.ai/http://x.com/ritholtz": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564796114,
+    "lastContentHash": "-f17d3ef"
+  },
+  "https://r.jina.ai/http://x.com/matt_levine": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614828225
+  },
+  "https://r.jina.ai/http://x.com/Forbes": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564806045,
+    "lastContentHash": "37ed82d9"
+  },
+  "https://r.jina.ai/http://x.com/stlouisfed": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564820130,
+    "lastContentHash": "-872c69d"
+  },
+  "https://r.jina.ai/http://x.com/jasonzweigwsj": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614860185
+  },
+  "https://r.jina.ai/http://x.com/aswathdamodaran": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564845704,
+    "lastContentHash": "2c91c0df"
+  },
+  "https://r.jina.ai/http://x.com/joshuabrown": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614900607
+  },
+  "https://r.jina.ai/http://x.com/MorganStanley": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564852579,
+    "lastContentHash": "41c18072"
+  },
+  "https://r.jina.ai/http://x.com/GoldmanSachs": {
+    "consecutiveFailures": 2,
+    "lastSuccess": 1765560337374,
+    "lastContentHash": "-3fcf117a"
+  },
+  "https://r.jina.ai/http://x.com/blackrock": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564879177,
+    "lastContentHash": "-752b1cb0"
+  },
+  "https://r.jina.ai/http://x.com/raydalio": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564908361,
+    "lastContentHash": "-5cd0a1d6"
+  },
+  "https://r.jina.ai/http://x.com/morningstar": {
+    "consecutiveFailures": 9,
+    "lastSuccess": 0,
+    "lastContentHash": "",
+    "pausedUntil": 1765614981912
+  },
+  "https://r.jina.ai/http://x.com/investingswede": {
+    "consecutiveFailures": 6,
+    "lastSuccess": 1765435282621,
+    "lastContentHash": "-53276e69",
+    "pausedUntil": 1765641755002
+  },
+  "https://r.jina.ai/http://x.com/TheEconomist": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564917261,
+    "lastContentHash": "-4bbefb95"
+  },
+  "https://r.jina.ai/http://x.com/business": {
+    "consecutiveFailures": 0,
+    "lastSuccess": 1765564925973,
+    "lastContentHash": "-5e198136"
+  }
+}

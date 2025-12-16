@@ -1,0 +1,47 @@
+{
+  "sierraChart": {
+    "host": "localhost",
+    "port": 11099,
+    "timeout": 10000,
+    "autoReconnect": true,
+    "reconnectInterval": 5000
+  },
+  "subscriptions": {
+    "symbols": [
+      {
+        "symbol": "MES",
+        "exchange": "CME",
+        "name": "Micro E-mini S&P 500"
+      },
+      {
+        "symbol": "YM",
+        "exchange": "CBOT",
+        "name": "Dow Jones Mini"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "exchange": "BINANCE",
+        "name": "Bitcoin/USDT"
+      },
+      {
+        "symbol": "EURUSD",
+        "exchange": "",
+        "name": "Euro/USD"
+      }
+    ],
+    "studies": [
+      "RSI",
+      "MACD",
+      "Moving Average",
+      "Bollinger Bands",
+      "Volume",
+      "VWAP"
+    ]
+  },
+  "data": {
+    "bufferSize": 1000,
+    "enableStudyData": true,
+    "enableMarketData": true,
+    "enableAlerts": true
+  }
+}

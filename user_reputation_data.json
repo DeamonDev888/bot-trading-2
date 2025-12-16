@@ -1,0 +1,14 @@
+{
+  "users": {
+    "123456789": {
+      "username": "TestUser",
+      "discriminator": "1234",
+      "score": 75,
+      "level": "Bronze",
+      "contributions": 0,
+      "badges": [],
+      "lastActivity": "2025-12-12T02:14:56.171Z"
+    }
+  },
+  "lastUpdated": "2025-12-12T02:14:56.171Z"
+}

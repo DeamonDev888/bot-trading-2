@@ -1,0 +1,23 @@
+Score these 2 financial news items from 1-10:
+
+1. ID: test123
+Title: Fed Williams says markets are strong for 2026 growth
+Source: FinancialJuice
+
+2. ID: test456  
+Title: CFTC reports show big changes in S&P positions
+Source: FinancialJuice
+
+For each item, return:
+- id (exact from input)
+- relevance_score (1-10, 7+ means publish)
+- processing_status ("RELEVANT" if ≥7 else "IRRELEVANT")
+- summary (very brief)
+
+Return JSON format exactly:
+{"results":[
+{"id":"test123","relevance_score":8,"processing_status":"RELEVANT","summary":"example summary"},
+{"id":"test456","relevance_score":6,"processing_status":"IRRELEVANT","summary":"example summary"}
+]}
+
+Replace example values with actual analysis of all 2 items.

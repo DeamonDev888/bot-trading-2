@@ -1,0 +1,20 @@
+{
+  "123456789": {
+    "userId": "123456789",
+    "score": 150,
+    "badges": [
+      "📊 Analyste"
+    ],
+    "contributions": 25,
+    "lastActivity": "2025-12-12T02:12:48.366Z",
+    "level": "Or"
+  },
+  "987654321": {
+    "userId": "987654321",
+    "score": 75,
+    "badges": [],
+    "contributions": 12,
+    "lastActivity": "2025-12-12T02:12:48.366Z",
+    "level": "Argent"
+  }
+}

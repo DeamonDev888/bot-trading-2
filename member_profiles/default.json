@@ -1,0 +1,33 @@
+{
+  "id": "default_user",
+  "userId": "default_user",
+  "username": "Default User",
+  "discriminator": "0001",
+  "nickname": "Default Profile",
+  "description": "Profil par défaut pour les utilisateurs sans profil personnalisé",
+  "avatar": null,
+  "joinedAt": "2025-01-01T00:00:00Z",
+  "is_active": true,
+  "preferences": {
+    "language": "fr",
+    "timezone": "Europe/Paris",
+    "notifications": {
+      "news_alerts": true,
+      "market_alerts": true,
+      "ai_insights": true
+    },
+    "daily_summary": true,
+    "auto_filtering": true,
+    "categories": ["AI", "FINANCE", "CODE", "OTHER"],
+    "min_relevance_score": 6,
+    "notification_channels": [],
+    "blacklisted_keywords": ["spam", "advertisement"],
+    "preferred_sources": ["reuters", "bloomberg", "financial_times", "techcrunch"]
+  },
+  "kilo_code_context": {
+    "custom_instructions": "Tu es Nova, l'assistant IA expert pour les marchés financiers et technologiques. Tu as accès à des données financières en temps réel, des analyses de sentiment et des outils de scraping avancés. Fournis des analyses pertinentes et actionnables basées sur les articles les plus pertinents.",
+    "data_sources": ["news_items", "market_data", "economic_events"],
+    "risk_tolerance": "medium",
+    "analysis_depth": "comprehensive"
+  }
+}

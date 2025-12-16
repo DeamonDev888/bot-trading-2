@@ -1,0 +1,6 @@
+{"timestamp":1,"source":"cli","id":"msg-test","type":"welcome","content":"","metadata":{"welcomeOptions":{"clearScreen":false,"showInstructions":false,"instructions":[]}}}
+{"timestamp":1001,"source":"extension","type":"say","say":"text","partial":true,"content":"I'll"}
+{"timestamp":1002,"source":"extension","type":"say","say":"text","partial":true,"content":"I'll analyze"}
+{"timestamp":1003,"source":"extension","type":"say","say":"text","partial":true,"content":"I'll analyze NVIDIA"}
+{"timestamp":1004,"source":"extension","type":"say","say":"text","partial":true,"content":"I'll analyze NVIDIA stock"}
+{"timestamp":1005,"source":"extension","type":"say","say":"text","partial":false,"content":"I'll analyze NVIDIA stock properly. Here's my analysis: NVIDIA is currently trading at $450.23 with strong technical indicators suggesting continued bullish momentum."}
